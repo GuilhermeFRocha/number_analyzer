@@ -1,0 +1,75 @@
+body {
+
+    font: normal 15pt Arial;
+    background-image: url(./fundo.jpg);
+    background-size: cover;
+    
+    background-position:center
+}
+
+header{
+    color:white;
+    text-align: center;
+    text-shadow: 0.1em 0.1em black;
+}
+
+section {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 3px 10px black;
+}
+
+.caixa {
+    text-align: center;
+}
+
+.caixa p {
+    font-size: 25px;
+}
+
+input {
+    border: 1px solid black;   
+    border-radius: 1em;
+    font-size: 20px;
+    padding: 5px;
+
+}
+#btn {
+    border: 1px solid black;   
+    border-radius: 1em;
+    font-size: 20px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+#btn:hover {
+    color:white;
+    background: black;
+    transition: ease-in 0.2s;
+}
+
+select {
+    border: 2px solid black;   
+    border-radius: 1em;
+    font-size: 20px;
+    padding: 8px;
+    overflow: hidden;
+}
+#text {
+    margin-top: 10px;
+    width: 275px;
+}
+
+.res {
+    margin-top: 20px;
+    text-align: center;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
